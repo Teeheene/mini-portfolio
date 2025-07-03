@@ -8,15 +8,22 @@
 }
 
 .header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
 	background-color: #db9ec9;
 	height: 60px;
 }
 
 .bar {
 	padding: 12px;
-	margin-left: 200px;
+	margin: 0px 200px;
 }
 
+.bar.content {
+	margin: 0;
+}
 
 a {
 	text-decoration: none;
@@ -26,7 +33,7 @@ a {
 .button {
 	font-size: 30px;
 	color: white;	
-	padding: 10px;
+	padding: 0px 20px 10px 0px;
 }
 
 .text {
@@ -37,12 +44,11 @@ a {
 
 #content {
 	height: auto;
-	margin: 30px 220px;
+	margin: 80px 220px;
 }
 
 .picture {
 	height: 500px;
-	padding: 1em;
 	margin-top: 30px;
 }
 
@@ -90,7 +96,12 @@ h2 {
 	font-size: 50px;
 }
 
+h3 {
+	font-size: 30px;
+}
+
 p {
-	margin: 10px;
 	font-size: 20px;
+	margin: 10px 0px;
+	line-height: 40px;	
 }
