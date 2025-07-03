@@ -1,0 +1,107 @@
+* {
+	font-family: Verdana, sans-serif;
+	color: #702c5c;
+	padding: 0;
+	margin: 0;
+
+	box-sizing: border-box;
+}
+
+.header {
+	background-color: #db9ec9;
+	height: 60px;
+}
+
+.bar {
+	padding: 12px;
+	margin-left: 200px;
+}
+
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.button {
+	font-size: 30px;
+	color: white;	
+	padding: 10px;
+}
+
+.text {
+	font-size: 20px;
+	color: #db9ec9;
+	padding: 0;
+}
+
+#content {
+	height: auto;
+	margin-top: 30px;
+	margin-left: 220px;
+	margin-right: 220px;
+}
+
+.about {
+	margin-bottom: 20px;
+}
+
+.skills {
+	margin-bottom: 20px;
+}
+
+.picture {
+	height: 500px;
+	padding: 1em;
+	margin-top: 30px;
+}
+
+.list {
+	background-color: #fadef2;
+	border-left: 10px solid #702c5c; 
+	margin-top: 30px;
+}
+
+.percent {
+	background-color: #db9ec9;
+	font-weight: bold;
+	font-size: 30px;
+	padding: 20px;
+}
+
+.percent.c {
+	width: 80%;	
+}
+
+.percent.java {
+	width: 60%;	
+}
+
+.percent.html {
+	width: 30%;
+}
+
+.percent.css {
+	width: 10%;
+}
+
+.percent.asm {
+	width: 15%;
+}
+
+ul {
+	list-style-type: none;
+}
+
+h1 {
+	font-size: 100px;
+}
+
+h2 {
+	font-size: 50px;
+}
+
+p {
+	margin: 10px;
+	font-size: 20px;
+}
