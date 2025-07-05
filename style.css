@@ -16,24 +16,26 @@
 	height: 60px;
 }
 
-.bar {
-	padding: 12px;
-	margin: 0px 200px;
+.container {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	height: inherit;
+	margin: 0px 220px;
 }
 
-.bar.content {
-	margin: 0;
+.container > * {
+	font-size: 30px;
+	color: white;	
+}
+
+.header-links {
+	margin-left: auto;
 }
 
 a {
 	text-decoration: none;
 	font-weight: bold;
-}
-
-.button {
-	font-size: 30px;
-	color: white;	
-	padding: 0px 20px 10px 0px;
 }
 
 .text {
@@ -48,8 +50,12 @@ a {
 }
 
 .picture {
-	height: 500px;
-	margin-top: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column; 
+	justify-content: center;
+	align-items: center;
+	height: 700px;
 }
 
 .list {
